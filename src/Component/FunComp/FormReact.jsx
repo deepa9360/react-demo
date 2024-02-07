@@ -35,7 +35,7 @@ function FormReact (){
          <br/>
          <br/>
 
-        <lable>age</lable>
+        <lable>Age</lable>
         <input placeholder="enter your age" onChange={handleage}/>
         
         <br/>
