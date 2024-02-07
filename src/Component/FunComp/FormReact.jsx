@@ -49,6 +49,8 @@ function FormReact (){
          
        </form>
       <div>
+     
+
         <h1>Name:{name}</h1>
         <h1>Age:{age}</h1>
         <h1>Email:{email}</h1>
