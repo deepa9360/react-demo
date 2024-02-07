@@ -55,7 +55,6 @@ function FormReact (){
         <h1>Age:{age}</h1>
         <h1>Email:{email}</h1>
      
-       
 
         </div>
        </div>
