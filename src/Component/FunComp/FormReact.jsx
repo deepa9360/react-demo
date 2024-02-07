@@ -45,7 +45,7 @@ function FormReact (){
 
         <br/>
         <br/>
-         <button onChange={handlesubmit}>Submit</button><br/>
+         <button onChange={handlesubmit}>Submit add</button><br/>
          
        </form>
       <div>
@@ -53,6 +53,7 @@ function FormReact (){
         <h1>Age:{age}</h1>
         <h1>Email:{email}</h1>
 
+       
 
         </div>
        </div>
