@@ -27,6 +27,7 @@ function FormReact (){
 <div>
      <h1>Register Form</h1>
      
+     { !ishow?
        <form>
         <lable>Name</lable>
         <input placeholder="enter your name" onChange={handlename}/>
@@ -46,29 +47,28 @@ function FormReact (){
         <br/>
         <br/>
          <button onChange={handlesubmit}>Submit </button><br/>
-         
+        
        </form>
-      <div>
-     
 
+       :
+        <h1> your response saved</h1>
+        
+        }
+      
+      {ishow &&
+
+      <div>
         <h1>Name:{name}</h1>
         <h1>Age:{age}</h1>
         <h1>Email:{email}</h1>
      
-
         </div>
-       </div>
+        }
+           </div>
+           
 
     );
  };
 
     export default FormReact;
-
-
-
-
-
-
-
-
 
