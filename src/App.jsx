@@ -3,7 +3,8 @@ import Birthday from './Component/FunComp/Birthday.jsx';
 import ApiCallComp from './Component/FunComp/ApiCallComp.jsx';
 import NavbarComp from './Component/Commen/NavbarComp.jsx';
 import FormReact from './Component/FunComp/FormReact.jsx';
-import Project from'./Component/FunComp/Project.jsx';
+import Project from './Component/Project.jsx';
+
 
 function App() {
    return (
@@ -16,6 +17,7 @@ function App() {
 
        {/* <ApiCallComp/> */}
        {/* <FormReact/>*/}
+
        <Project/>
 
 
