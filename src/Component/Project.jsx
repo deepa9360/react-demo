@@ -1,19 +1,25 @@
 import React, { useState } from "react";
 
 
-
 function Project (){
   const[text,settext]=useState("")
   const[btn,setbtn]=useState([])
+  
 
-const handleadd=(e)=>{
+
+  const handleadd=(e)=>{
       settext(e.target.value)
 }
   const handleiterm=(e)=>{
        setbtn([...btn,text])
 
   }
-   
+   function handledel(index){
+    const listOne= btn;
+    listOne.splice(index,1);
+     setbtn([...listOne])
+   }
+
     return(
 
       <div>
@@ -26,6 +32,7 @@ const handleadd=(e)=>{
      {btn.map((sd,i)=>(
       <div key={i}>
         <h1>{sd}</h1>
+        <button onClick={handledel}>Delete</button>
       </div>
      ))}
     
@@ -35,3 +42,6 @@ const handleadd=(e)=>{
     )
 }
 export default Project;
+
+
+
