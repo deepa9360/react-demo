@@ -15,7 +15,7 @@ function App() {
 
        {/*<Birthday/>*/}
 
-       {/* <ApiCallComp/> */}
+        {/*<ApiCallComp/> */}
        {/* <FormReact/>*/}
 
        <Project/>

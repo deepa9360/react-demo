@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import CardComp from "../Commen/CardComp";
+import CardComp from "../Commen/CardComp"
 
 function ApiCallComp() {
    const [resdata, setresdata] = useState([]);

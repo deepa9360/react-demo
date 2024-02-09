@@ -1,8 +1,9 @@
 import React from "react";
-import "./cardcomp.css";
+
 import {
   Card, CardBody, CardSubtitle, CardText, CardTitle, Button
 } from "reactstrap"
+
 
 
 
@@ -35,10 +36,10 @@ function CardComp(props) {
           Some quick example text to build on the card title and make up the bulk of the card's content.
         </CardText>
         <div >
-          <button className="bnt">30%</button>
+          <button >30%</button>
         </div>
         <div >
-        <Button className="name">
+        <Button >
           Button
         </Button>
         </div>
