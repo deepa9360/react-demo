@@ -4,7 +4,7 @@ import ApiCallComp from './Component/FunComp/ApiCallComp.jsx';
 import NavbarComp from './Component/Commen/NavbarComp.jsx';
 import FormReact from './Component/FunComp/FormReact.jsx';
 import Project from './Component/Project.jsx';
-
+import Regform from './React hook form/Regform.jsx';
 
 function App() {
    return (
@@ -17,8 +17,8 @@ function App() {
 
         {/*<ApiCallComp/> */}
        {/* <FormReact/>*/}
-
-       <Project/>
+        <Regform/>
+       {/*<Project/>*/}
 
 
 

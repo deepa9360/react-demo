@@ -5,8 +5,6 @@ import {
 } from "reactstrap"
 
 
-
-
 function CardComp(props) {
   return (
 
@@ -36,10 +34,10 @@ function CardComp(props) {
           Some quick example text to build on the card title and make up the bulk of the card's content.
         </CardText>
         <div >
-          <button >30%</button>
+          <button className="btn1">30%</button>
         </div>
         <div >
-        <Button >
+        <Button className="btn2" >
           Button
         </Button>
         </div>

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CardComp from "../Commen/CardComp"
 
+
 function ApiCallComp() {
    const [resdata, setresdata] = useState([]);
 
@@ -29,7 +30,7 @@ function ApiCallComp() {
                </div>
             ))};
          </div>
-      </div>
+    ssss  </div>
       </div>
       );
 

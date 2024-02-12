@@ -1,0 +1,63 @@
+.head{
+    background-color: rgb(255, 0, 162);
+    height: 400spx;
+    width: 500px;
+    text-align: center;
+    margin-left: 30%;
+    margin-top:90px;
+}
+
+.menu{
+    width: 77%;
+   float: right;
+   font-style: italic;
+   background-color:gray;
+   font-size:32;
+   height: 30px;
+   
+}
+.btn1{
+
+background-color: rgb(16, 165, 78);
+font-size:17px
+
+}
+
+.btn2{
+text-align: center;
+    background-color: red;
+    float: right;
+    margin-bottom:90px;
+    font-size: 20px;
+    height: 30px;
+    width: 90px;
+    margin-top:-2px;
+
+
+}
+.bud{
+    padding: 20px;
+    height: 30px;
+    
+
+}
+
+.add{
+width: 250px;
+
+
+}
+.sd{
+
+font-size: 20px;
+float: left;
+    
+    
+}
+:hover.btn1{
+    
+background-color: aqua;
+}
+
+
+
