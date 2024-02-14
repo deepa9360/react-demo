@@ -1,6 +1,6 @@
 .head{
     background-color: rgb(255, 0, 162);
-    height: 400spx;
+    height: 350px;
     width: 500px;
     text-align: center;
     margin-left: 30%;
@@ -11,7 +11,7 @@
     width: 77%;
    float: right;
    font-style: italic;
-   background-color:gray;
+   background-color:white;
    font-size:32;
    height: 30px;
    
@@ -29,9 +29,9 @@ text-align: center;
     float: right;
     margin-bottom:90px;
     font-size: 20px;
-    height: 30px;
+    height: 32px;
     width: 90px;
-    margin-top:-2px;
+    margin-top:-1px;
 
 
 }
