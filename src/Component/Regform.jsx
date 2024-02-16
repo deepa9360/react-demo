@@ -4,12 +4,12 @@ function Regform() {
 
   const {
 
-    register,handleSubmit
+    register, handleSubmit
   } = useForm()
 
   const onsubmit = (data) => {
     console.log(data);
-    
+
   }
 
   return (
@@ -30,7 +30,7 @@ function Regform() {
 
         <input type="text" placeholder="enter your d.o.b"{...register("d.o.b")} />
         <br />
-        <br/>
+        <br />
 
         <button onClick={handleSubmit(onsubmit)}>submit</button>
 
