@@ -1,0 +1,40 @@
+.div{
+ background-color:yellowgreen;
+ height: 500px;
+ width: 500px;
+ border-radius: 20px;
+ text-align: center;
+ margin-left:30%;
+ margin-top:60px
+ 
+ 
+}
+.del{
+
+background-color: red;
+width: 60px;
+
+
+}
+.edit{
+
+background-color:violet;
+width: 60px;
+
+
+}
+
+.add{
+
+    background-color: skyblue;
+    width: 70px;
+}
+:hover.add{
+    background-color:hotpink;
+}
+.todo{
+
+    padding:20px;
+}
+
+
