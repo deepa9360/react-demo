@@ -1,40 +1,136 @@
-.div{
- background-color:yellowgreen;
- height: 500px;
- width: 500px;
- border-radius: 20px;
- text-align: center;
- margin-left:30%;
- margin-top:60px
- 
- 
+.full{
+    background-color:lightcoral ;
+    text-align: center;
+    height: 600px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top:45px ;
+    width: 800px;
 }
-.del{
-
-background-color: red;
-width: 60px;
-
+.tamil{
+width: 60%;
+margin-top: 20px;
+border-left: none;
+border-right: none;
+border-top: none;
+}
+.maths{
+    background-color:orangered;
+    margin-top:50px;
+    font-style: italic;
+    width: 100px;
+    text-align: center;
+    position: relative;
+    bottom:30px;
+}
+.bb{
+    margin-top: 40px;
+    height:150px;
+    padding-top:30px;
+    background-color:lightgreen;
 
 }
-.edit{
-
-background-color:violet;
-width: 60px;
-
+.vi{
+margin-left: -0px;
+font-style: italic;
+height:150px;
+margin-top:- 10px;
+}
+:hover.maths{
+    background-color: hotpink;
+}
+.five{
+border: 1px solid;
+margin-bottom: 0;
+background-color: grey;
+font-style:italic;
+display: flex;
+flex-direction: row;
+position: relative;
+}
+.bgm{
+    display: flex;
+    margin-top: -55%; 
 
 }
-
-.add{
-
-    background-color: skyblue;
-    width: 70px;
+.don{ 
+    margin-top:-10px;
+    margin-right:500px;
+    font-size: 15px;
+    margin-left: 10px;
+   
 }
-:hover.add{
-    background-color:hotpink;
+.addbtn{
+margin-top: -10%;
+margin-left: 25%;
 }
-.todo{
-
-    padding:20px;
+.mma{
+    display: flex;
+    margin-top:10px;
+    border: 1px solid;
+    margin-top: 0;
+}
+.six{
+margin-bottom: 50%;
+background-color:white;
+height:120px; 
+width: 600px;
+position: relative;
+left:100px;
+box-shadow: 5px 10px gainsboro;
+bottom: 60px;
 }
 
+.one{
+  position: relative;
+  font-size: 17px;
+  left:15px;
+}
+.two{
 
+    position: relative;
+    font-size: 17px;
+    left: 480px;
+}
+.three{
+
+    position: relative;
+    font-size: 17px;
+    left:510px;
+}
+.four{
+  position: relative;
+font-size: 17px;
+left: 540px;
+
+}
+.bg{
+margin: 10px;
+}
+.bgm{
+   border: 1px solid;
+    font-size:25px;
+    margin-bottom:0;
+    font-style: italic;
+}
+.btn4{
+    position: relative;
+    left:-20px;
+    font-size: 12px;
+    background-color: lightskyblue;
+    float: right;
+}
+.btn6{
+
+    position: relative;
+    right:-60px;
+    bottom:-0.5px;
+    float: right;
+}
+.cmt{
+    background-color: lightgoldenrodyellow;
+    position: relative;
+    left:-150px;
+    font-size:12px;
+    float:right;
+}

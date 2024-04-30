@@ -1,0 +1,35 @@
+.name{
+    border-color: blue;
+border-radius: 10px;
+}
+.font{
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    background-color:aliceblue;
+    width:450px;
+    margin-left: 400px;
+    height:300px;
+    border-radius:10px; 
+}
+.nm{
+
+    padding: 20px;
+}
+
+
+.in{
+    text-align: center;
+    background-color: blue;
+border-radius:10px;
+color: black;
+}
+.an{
+
+    border-radius: 10px;
+}
+
+
+

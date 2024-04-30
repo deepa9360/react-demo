@@ -15,7 +15,7 @@ function ApiCallComp() {
       const data = await response.json();
       setresdata(data)
        console.log(data);
-
+      
    }
 
    return (

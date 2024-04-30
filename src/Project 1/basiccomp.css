@@ -1,0 +1,466 @@
+.shop {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    background-color: black;
+    padding: 8px;
+}
+
+.aa {
+    color: white;
+
+}
+
+.love {
+    background-color: white;
+    margin: 20px;
+    font-size: 27px;
+}
+
+.thinks {
+    font-size: 25px;
+
+}
+
+
+.apple {
+    font-size: 45px;
+    color: white;
+
+}
+
+.phone {
+    margin-left: px;
+}
+
+.bg {
+    background-color: black;
+    color: white;
+    width: 340px;
+    padding: 30px;
+    height: 301px;
+    margin-top: 1px;
+}
+
+.now {
+    font-size: 15px;
+    color: white;
+}
+
+.G92 {
+    font-size: 13px;
+
+}
+
+.cart {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    width: 210px;
+}
+
+.view {
+
+    text-align: center;
+    padding: 10px;
+    background-color: orangered;
+    color: white;
+}
+
+.num {
+    font-size: 31px;
+}
+
+.img {
+
+    padding: 10px;
+
+}
+
+.but {
+
+    margin-left: 500px;
+}
+
+
+.all {
+    background-color: red;
+    color: white;
+    padding: 12px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.cata {
+    font-size: 15px;
+    color: red;
+    position: relative;
+   left: 25px;
+   padding: 10px;
+}
+.brouse {
+    margin-bottom: 30px;
+}
+.col-8 {
+    text-align: center;
+}
+
+.bgg {
+    background-color: brown;
+    color: white;
+}
+
+.sd {
+
+    text-align: center;
+    font-size: 14px;
+}
+
+.col-2 {
+    margin-bottom: 40px;
+    margin-top: 30px;
+
+}
+
+.bgf {
+    margin-left: 50px;
+}
+
+.hh {
+    margin-left: 100px;
+
+}
+
+.ca {
+    margin-left: 80px;
+}
+
+.bag {
+    margin-left: 50px;
+}
+
+.cpu {
+    margin-left: 45px;
+}
+
+.book {
+    margin-left: 45px;
+}
+
+
+.ds {
+    background-color: brown;
+}
+
+
+.box {
+    width: 19px;
+    height: 40px;
+    background-color: red;
+    margin: 18px;
+    margin-left: -3px;
+
+}
+
+.month {
+
+    margin-left: 25px;
+    font-size: 15px;
+    color: red;
+    width: 120px;
+    padding: 10px;
+
+}
+
+.sell {
+
+    margin: 10px;
+    margin-left: -3px;
+    margin-bottom: 25px;
+}
+
+.radio {
+    background-color: black;
+    height: 380px;
+
+}
+
+.con {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.your {
+    color: white;
+    margin-left: -120px;
+}
+
+.music {
+    color: white;
+    margin-left: -45px;
+}
+
+.mmf {
+    color: white;
+    background-color: green;
+    margin-top: 50px;
+}
+
+.color {
+    color: red;
+    position: relative;
+    right: 63px;
+}
+
+.colour {
+    color: yellow;
+}
+
+.star {
+
+    color: yellow
+}
+
+.gray {
+    color: gray;
+}
+
+.today {
+    margin-left: 20px;
+    color: red;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+.round {
+
+    height: 333px;
+    width: 40px;
+    color: azure;
+
+}
+
+.hdms {
+    margin: 15px;
+    width: 68px;
+    height: 68px;
+    border-radius: 150px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.buy {
+    margin-left: -200px;
+    padding: 8px;
+    width: 150px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    
+}
+
+.text {
+    margin-left: -290px;
+
+}
+
+.whole {
+    font-size: 15px;
+}
+
+.camara {
+    color: white;
+    background-color: red;
+}
+
+.our {
+    color: red;
+    margin-left: 25px;
+    width: 120px;
+    padding: 10px;
+}
+
+.rs {
+    color: red;
+}
+
+.explore {
+
+    padding: 20px;
+    margin-top: -30px;
+    margin-left:-22px;
+}
+.board{
+
+    position: relative;
+    right:10px;
+   
+}
+.moniter{
+
+    position: relative;
+    right: 5px;
+}
+
+.chair{
+
+    position: relative;
+    right: 13px;
+}
+.game{
+    position: relative;
+    right: 36px;
+}
+.key{
+
+    position: relative;
+    right: 39px;
+}
+.ips{
+    position: relative;
+    right: 36px;
+}
+.series{
+
+    position: relative;
+    right: 36px;
+}
+.coat{
+position: relative;
+right: 32px;
+}
+.gucci{
+    position: relative;
+    right: 27px;
+}
+.small{
+   position: relative;
+    right:35px ;
+}
+.north{
+    position: relative;
+    right: 30px;
+}
+.duffle{
+
+    position: relative;
+    right: 28px;
+}
+.rgc{
+
+    position: relative;
+    right: 28px;
+}
+.self{
+position: relative;
+right: 25px;
+
+}
+.arr{
+    float: right;
+    margin-bottom: 50px;
+  background-color:lightgray;
+  height: 30px;
+  width: 30px;
+    margin: 5px;
+border-radius: 10px;
+
+}
+
+.ars{
+float: right;
+border-radius: 10px;
+margin:5px;
+background-color:lightgrey;
+height: 30px;
+width: 30px;
+}
+
+.cesar{
+    position: relative;
+    left:43px;
+    top: -42px;
+}
+.photo{
+    position: relative;
+    left:43px;
+    top: -42px;
+}
+.fhdlap{
+    position: relative;
+    left:43px;
+    top: -42px;
+}
+
+.two{
+
+    position: relative;
+    left:43px;
+    top: -42px;
+}
+.kids{
+    position: relative;
+    left:43px;
+    top: -42px;
+}
+.shoes{
+    position: relative;
+    left:52px;
+    top: -42px;
+}
+
+.gamepad{
+    position: relative;
+    left:43px;
+    top: -42px;
+}
+.satin{
+    position: relative;
+    left:43px;
+    top: -42px;
+}
+.new{
+   width: 250px;
+   padding:15px;
+   margin-left: -15px;
+}
+.com{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

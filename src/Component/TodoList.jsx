@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import { useEffect } from "react";
 import { v4 as uuidv4 } from 'uuid';
+import { FaTrashRestoreAlt } from "react-icons/fa";
 import "./todo.css"
 
 
@@ -15,13 +16,11 @@ function TodoList() {
 
   }, [])
 
-
   const handlegetdata = async () => {
     const response = await axios.get("http://localhost:3000/todoList");
     settodo(response.data)
-    
-  }
 
+  }
   const handleadd = () => {
     let body = {
       id: uuidv4(),
@@ -41,8 +40,8 @@ function TodoList() {
   };
 
 
-  const handleedit = async (index) =>{
-   const updatetask = prompt("update u r task", todo[index].task)
+  const handleedit = async (index) => {
+    const updatetask = prompt("update u r task", todo[index].task)
 
     let body = {
       id: todo[index].id,
@@ -54,31 +53,47 @@ function TodoList() {
 
     handlegetdata();
   }
-    return (
+  return (
 
-
-      <div  className="div">
-        <h1 className="todo">TodoList</h1>
-        <input type="text" placeholder=" enter your task" onChange={(e) => setinput(e.target.value)} />
-        <button onClick={handleadd} className="add">Add</button>
-
-        {todo.map((da, i) => (
-
-          <div key={i} >
-            <h1> {i + 1}.{da.task} </h1>
-
-            <button onClick={() => handleedit(i)} className="edit">Edit</button>
-            <button onClick={() => handledelet(da.id)} className="del">Delete</button>
-
+    <div className="full">
+      <div className="bb" >
+        <h2 className="vi">TODO List</h2>
+      </div>
+      <div className="six">
+        <input type="text" placeholder=" What Would you like to do?" onChange={(e) => setinput(e.target.value)} className="tamil"/>
+         <br/>
+          <button onClick={handleadd} className="maths">Add</button>
           </div>
+          <div className="bg" >
+        <h2 className="bgm">Todolist</h2>
+        <div className="five">
+       <h2 className="one">list</h2>
+       <h2 className="two">status</h2>
+       <h2 className="three">edit</h2>
+       <h2 className="four">close</h2>
+        </div>
+                  
+        {todo.map((da, i) => (
+          
+          <div key={i}  className="mma">
+           
+             <div> <h1 className="don" > {i + 1}.{da.task} </h1></div>
+          
+            <div className="dd">
+              <button  className="cmt">Completed</button>
+              <button onClick={() => handleedit(i)} className="btn4" >Edit</button>
+              <div onClick={() => handledelet(da.id)} className="btn6"> <FaTrashRestoreAlt /> </div>
+            </div>
+          </div>
+         
         ))}
 
       </div>
+    </div>
+  )
+}
 
-    )
-  }
-
-  export default TodoList;
+export default TodoList;
 
 
 
