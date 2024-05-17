@@ -18,6 +18,10 @@ import CounterRedux from './Component/CounterRedux.jsx'
 import { Provider } from 'react-redux';
 import { store } from './Redux/Store.jsx';
 import BasicComp from './Project 1/BasicComp.jsx'
+import Home from './Evanto/Home.jsx';
+import Aboutme from './Evanto/Aboutme.jsx';
+import Contact from './Evanto/Contact.jsx';
+import Projectpage from './Evanto/Projectpage.jsx';
 
 
 
@@ -26,14 +30,16 @@ function App() {
    return (
       <div>
 
-      {/* <BasicComp/> */}
+         {/* <BasicComp/> */}
 
-          {/* <Provider store={store}>
+         {/* <Provider store={store}>
             <CounterRedux />
          </Provider>  */}
- 
 
-         
+         {/* <Home />
+         <Aboutme /> */}
+         <Contact />
+         {/* <Projectpage /> */}
 
       </div>
 
@@ -66,7 +72,7 @@ function App() {
       //        <Route path='/Contactus' element={<ContactusComp />} /> 
 
       //        <HomeComp/>
-      //     <ProductComp/>
+      //     <ProductComp/
       //     <ContactusComp/> 
 
       //     </Routes>

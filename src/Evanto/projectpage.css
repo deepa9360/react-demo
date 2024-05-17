@@ -1,0 +1,86 @@
+/* .pro {
+   
+    width: auto;
+    background-color: blueviolet;
+    height: 500px;
+    margin: 0%;
+}
+
+.card {
+    width: 300px;
+    height: 100px;
+    margin: 50px;
+    text-align: center;
+    margin-left: 90px;
+}
+
+.fbd {
+    display: flex; 
+}
+.tmt{
+    background-color: orange;
+   
+   
+}
+.tom{
+    background-color: lightskyblue;
+   
+    
+}
+.cherry{
+    background-color: lightcoral;
+    
+}
+ 
+.choice{
+    margin-top: 60px;
+    background-color: brown;
+    height:400px;
+}
+.usa{
+    display: flex;
+  
+} */
+
+.techh {
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+   gap: 50px;
+   
+
+}
+
+.jaan {
+    margin: 20px 20px;
+    height: 500px;
+}
+
+.pic {
+
+    border-radius: 30px;
+    background-color: lightgreen;
+    padding: 25px;
+    text-align: center;
+
+}
+
+.err {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pigg{
+
+    margin: 20px;
+    color: black;
+}
+
+
+
+
+
+
+
+

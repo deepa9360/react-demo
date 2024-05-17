@@ -1,0 +1,100 @@
+#cont {
+    background-color:rgb(193, 20, 121);
+    height: 500px;
+}
+
+.clg {
+    color: white;
+    margin-left: 180px;
+
+}
+
+.hell {
+    display: flex;
+    margin-left: 50%;
+   
+
+}
+
+.name {
+    margin: 10px;
+}
+
+.xx {
+    margin: 10px;
+    margin-right: -50px;
+}
+
+.sub {
+    margin-left: 51%;
+   
+   
+}
+
+.mess {
+
+    margin-left: 51%;
+    
+}
+
+.send {
+
+    margin-left: 51%;
+}
+
+.int {
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+    margin-top: -30px;
+}
+
+.put {
+    height: 50px;
+    width: 620px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+}
+
+.mes {
+    height: 133px;
+    width: 620px;
+    border-radius: 25px;
+    border: none;
+    text-align: center;
+}
+
+.fatp {
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    background-color: white;
+    background-color: red;
+    color: white;
+    font-size: 19px;
+    margin-left: 12px;
+}
+
+.allmess {
+    margin-right: 150px;
+    margin-top: -45px;
+}
+.talk {
+    font-size: 30px;
+    margin-top:-25px;
+}
+.tree{
+    padding: 35px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+.myself{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    text-align: center;
+}
+.self{
+    background-color: black;
+    height:40px;
+    width:1500px;
+    padding: 5px;
+
+}
+.doe{
+height: 450px;
+width: auto;
+background-color: purple;
+text-align: center;
+margin-left: -100px;
+border-top-left-radius: 50px;
+}
+.ae{
+    color: white;
+    margin-top: -80px;
+
+}
+.bs{
+
+    color: white;
+}
+.mr{
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 5px;
+    width: 120px;
+    border: none;
+    margin-top: 20px;
+    
+}
+.img{
+    border-radius: 110%;
+}
+.media{
+    font-size:50px;
+padding: 10px;
+color: white;
+}
+.gr{
+    float: right;
+    color: white;
+}
+.ww{
+   
+    color: white;
+    text-decoration: none;
+   
+}
+.dot{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 45px;
+    gap:45px;
+    position: static; 
+}
+.can{
+
+    display: flex;
+    justify-content: space-between;
+}
+.eleven{
+    margin-top:-50px;
+}
+
+aww:hover{
+    background-color:black;
+    width:70px;
+    height:30px ;
+    text-align: center;
+}
+
+
+
+
+
+

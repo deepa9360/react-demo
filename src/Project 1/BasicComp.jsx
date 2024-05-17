@@ -14,8 +14,6 @@ export default function BasicComp() {
 
   return (
 
-
-
     <div>
 
       {/* top-block-page */}

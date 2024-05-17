@@ -1,0 +1,106 @@
+#section {
+    
+    background-color:yellowgreen;
+    width: auto;
+}
+.cofee {
+    display: flex;
+    margin-left: 100px;
+}
+.para {
+    text-align: center;
+    color:white;
+    font-size: 20px;
+    margin-left:-50px;
+    margin: 5px;
+}
+.me {
+    color: white;
+    margin-left: 75px;
+    margin-top: 10px;
+    font-style: italic;
+}
+.para button {
+    border-radius: 200px;
+    padding: 5px;
+    width: 110px;
+    font-size: 15px;
+}
+
+.sea {
+    width: 300px;
+    margin-left:100px;
+    color:white;
+}
+
+.fnt {
+    width: 100%;
+    background-color: brown;
+    height: 10px;
+}
+
+.coco {
+    background-color: green;
+    width: 65%;
+    height: 10px;
+}
+.dy {
+    font-size: 30px;
+}
+.coco1 {
+    background-color: blue;
+    width: 65%;
+    height: 10px;
+}
+.coco2 {
+    background-color: pink;
+    width: 65%;
+    height: 10px;
+}
+
+.mainh1 {
+    margin-left:-60px;
+}
+.button {
+    margin: 5px;
+}
+.paramain {
+    margin-left: 100px;
+    margin: 10px;
+}
+.mainbar{
+    margin-left: 70px;
+
+}
+.skill{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    margin: 35px;
+    font-style: italic;
+}
+.logoimg{
+    display: grid;
+    grid-template-columns: auto auto auto;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   gap: 65px;
+
+}
+.logo{
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

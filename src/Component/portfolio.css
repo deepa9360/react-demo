@@ -1,0 +1,57 @@
+.main{
+    background-color: cadetblue;
+}
+.firstmain{
+    background-color: black;
+}
+
+
+.navmain{
+background-color: aquamarine;
+}
+.por{
+color: brown;
+position: relative;
+
+}
+.nav{
+    margin-left: 680px;
+    gap: 50px;
+}
+.firstmain{
+    display: flex;
+    position: relative;
+    
+}
+.navbar{
+
+    color:white;
+    text-decoration: none;
+    padding: 10px;
+
+    gap: 50px;
+}
+.profile img {
+    border-radius: 200px;
+}
+.profile h1,h3,span{
+    text-align: center;
+    margin-top: 20px;
+}
+.logo{
+    text-align: center;
+    margin-top: 40px;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    justify-content: space-evenly;
+    font-size: 30px;
+    padding: 10px;
+    text-align: center;
+}
+.logo button{
+    border-radius: 100px;
+    width: 200px;
+    margin-top: 80px;
+}
