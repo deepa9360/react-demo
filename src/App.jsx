@@ -22,7 +22,7 @@ import Home from './Evanto/Home.jsx';
 import Aboutme from './Evanto/Aboutme.jsx';
 import Contact from './Evanto/Contact.jsx';
 import Projectpage from './Evanto/Projectpage.jsx';
-import Navbar from './components/navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 
 
 
