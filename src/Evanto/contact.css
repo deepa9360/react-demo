@@ -1,4 +1,4 @@
-#cont {
+/* #cont {
     background-color:rgb(193, 20, 121);
     height: 500px;
 }
@@ -44,7 +44,7 @@
 
 .int {
     height: 50px;
-    width: 300px;
+    width: 255px;
     border-radius: 25px;
     border: none;
     text-align: center;
@@ -53,15 +53,15 @@
 
 .put {
     height: 50px;
-    width: 620px;
+    width: 525px;
     border-radius: 25px;
     border: none;
     text-align: center;
 }
 
 .mes {
-    height: 133px;
-    width: 620px;
+    height: 145px;
+    width: 530px;
     border-radius: 25px;
     border: none;
     text-align: center;
@@ -90,7 +90,7 @@
 .tree{
     padding: 35px;
 }
-
+ */
 
 
 

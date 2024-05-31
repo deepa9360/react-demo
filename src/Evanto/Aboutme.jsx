@@ -19,7 +19,7 @@ export default function Aboutme() {
           <div className='para'>
             <p>  As a fresher in the field, <br/>I'm constantly honing my skills and<br/> exploring the latest trends and<br/> best practices in React development.I thrive on challenges and <br/>love diving deep into problem-solving<br/> to deliver elegant and efficient solutions.</p>
             <div className='button'>
-              <button>Download CV</button>
+              <button className='zax'>Download CV</button>
             </div>
           </div>
         </div>

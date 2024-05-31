@@ -62,7 +62,8 @@
     margin-left:-60px;
 }
 .button {
-    margin: 5px;
+    margin: 10px;
+
 }
 .paramain {
     margin-left: 100px;
@@ -73,7 +74,7 @@
 
 }
 .skill{
-    text-align: center;
+   
     color: white;
     margin-top: 30px;
     margin: 35px;
@@ -85,13 +86,18 @@
    justify-content: center;
    text-align: center;
    align-items: center;
-   gap: 65px;
+   gap: 75px;
 
 }
 .logo{
     margin: 30px;
 }
-
+.zax{
+    background-color:red;
+    color: white;
+  
+   
+}
 
 
 
