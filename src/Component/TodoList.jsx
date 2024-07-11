@@ -58,34 +58,34 @@ function TodoList() {
     <div className="full">
       <div className="bb" >
         <h2 className="vi">TODO List</h2>
-      </div>
-      <div className="six">
-        <input type="text" placeholder=" What Would you like to do?" onChange={(e) => setinput(e.target.value)} className="tamil"/>
-         <br/>
+        <div className="six">
+          <input type="text" placeholder=" What Would you like to do?" onChange={(e) => setinput(e.target.value)} className="tamil" />
+          <br />
           <button onClick={handleadd} className="maths">Add</button>
-          </div>
-          <div className="bg" >
-        <h2 className="bgm">Todolist</h2>
-        <div className="five">
-       <h2 className="one">list</h2>
-       <h2 className="two">status</h2>
-       <h2 className="three">edit</h2>
-       <h2 className="four">close</h2>
         </div>
-                  
+      </div>
+      <div className="bg" >
+        <h4 className="bgm">Todolist</h4>
+        <div className="five">
+          <h4 className="one">list</h4>
+          <h4 className="two">status</h4>
+          <h4 className="three">edit</h4>
+          <h4 className="four">close</h4>
+        </div>
+
         {todo.map((da, i) => (
-          
-          <div key={i}  className="mma">
-           
-             <div> <h1 className="don" > {i + 1}.{da.task} </h1></div>
-          
+
+          <div key={i} className="mma">
+
+            <div> <h1 className="don" > {i + 1}.{da.task} </h1></div>
+
             <div className="dd">
-              <button  className="cmt">Completed</button>
+              <button className="cmt">Completed</button>
               <button onClick={() => handleedit(i)} className="btn4" >Edit</button>
               <div onClick={() => handledelet(da.id)} className="btn6"> <FaTrashRestoreAlt /> </div>
             </div>
           </div>
-         
+
         ))}
 
       </div>
